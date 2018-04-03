@@ -1,0 +1,20 @@
+{
+  "extends": [
+    "eslint:recommended",
+    "plugin:react/recommended"
+  ],
+  "parserOptions": {
+    "sourceType": "module"
+  },
+  "env": {
+    "browser": true
+  },
+  "rules": {
+    "react/prop-types": 0
+  },
+  "globals": {
+    "__dirname": false,
+    "graphql": false,
+    "module": false
+  }
+}
