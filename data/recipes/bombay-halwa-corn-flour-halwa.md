@@ -5,7 +5,7 @@ datePublished: 2017-12-13T12:30:22.341Z
 description: >-
   Bombay Halwa also known as Cornflour Halwa is an easy to make jelly like or
   chewy dessert.
-image: /img/Bombay-Halwa.jpg
+image: ./img/Bombay-Halwa.jpg
 totalTimeHours: '0'
 totalTimeMinutes: '30'
 recipeYield: '8'

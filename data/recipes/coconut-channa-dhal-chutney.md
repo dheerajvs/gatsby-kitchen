@@ -3,7 +3,7 @@ title: Coconut Channa Dhal Chutney
 author: Sowmya B A
 datePublished: 2017-12-02T07:20:24.907Z
 description: 'Coconut Channa dhal chutney is a South Indian side dish for Idli, Poori, Dosa'
-image: /img/Coconut-ChannaDhal Chutney.jpg
+image: ./img/Coconut-ChannaDhal Chutney.jpg
 totalTimeHours: '0'
 totalTimeMinutes: '20'
 recipeYield: '2'

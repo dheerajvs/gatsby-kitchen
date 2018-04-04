@@ -5,7 +5,7 @@ datePublished: 2017-12-26T13:29:31.119Z
 description: >-
   Kesari Bhath is a popular South Indian sweet dish made from semolina. Usually
   had for breakfast or tea time snacks.
-image: /img/Kesari-Bhath.jpg
+image: ./img/Kesari-Bhath.jpg
 totalTimeHours: '0'
 totalTimeMinutes: '20'
 recipeYield: '4'

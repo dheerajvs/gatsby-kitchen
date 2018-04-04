@@ -5,7 +5,7 @@ datePublished: 2017-08-29T07:42:17.080Z
 description: >-
   Rice Coconut Steamed Barfi is a popular sweet in Karnataka during festivals,
   made from fresh coconut, rice and jaggery.
-image: /img/Rice-Coconut-Burfi.jpg
+image: ./img/Rice-Coconut-Burfi.jpg
 totalTimeHours: '4'
 totalTimeMinutes: '10'
 recipeYield: 6 people

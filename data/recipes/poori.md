@@ -3,7 +3,7 @@ title: Poori
 author: Sowmya B A
 datePublished: 2018-01-31T18:45:51+05:30
 description: Easy to make South Indian Breakfast
-image: /img/Poori.jpg
+image: ./img/Poori.jpg
 totalTimeHours: '0'
 totalTimeMinutes: '30'
 recipeYield: '4'

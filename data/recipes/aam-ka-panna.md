@@ -3,7 +3,7 @@ title: Aam Ka Panna
 author: Sowmya B A
 datePublished: 2017-05-25T08:09:23.378Z
 description: Sweet and sour ideal drink made with raw mango to beat the summer heat
-image: /img/AamKaPanna.jpg
+image: ./img/AamKaPanna.jpg
 totalTimeHours: '0'
 totalTimeMinutes: '20'
 recipeYield: 1 250 ml bottle

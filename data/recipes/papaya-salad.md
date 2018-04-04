@@ -3,7 +3,7 @@ title: Papaya Salad
 author: Sowmya B A
 datePublished: 2018-01-18T12:56:19.460Z
 description: Fruit Apatizer
-image: /img/Papaya-Salad.jpg
+image: ./img/Papaya-Salad.jpg
 totalTimeHours: '0'
 totalTimeMinutes: '10'
 recipeYield: 2-3

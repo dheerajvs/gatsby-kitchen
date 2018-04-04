@@ -3,7 +3,7 @@ title: Green Peas and Methi Pulao
 author: Sowmya B A
 datePublished: 2017-05-30T06:12:24.406Z
 description: 'Simple, healthy and nutritious pulao made of methi i.e fenugreek leaves'
-image: /img/Methi-Peas-Pulao1.jpg
+image: ./img/Methi-Peas-Pulao1.jpg
 totalTimeHours: '0'
 totalTimeMinutes: '20'
 recipeYield: '3'

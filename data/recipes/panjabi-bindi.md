@@ -3,7 +3,7 @@ title: Punjabi Bhindi Curry (Stir Fried - Dry)
 author: Sowmya B A
 datePublished: 2017-07-04T13:05:23.613Z
 description: 'Spicy, stir fried, dry saute okra curry '
-image: /img/Punjabi-Bhindi.jpg
+image: ./img/Punjabi-Bhindi.jpg
 totalTimeHours: '0'
 totalTimeMinutes: '30'
 recipeYield: '3'

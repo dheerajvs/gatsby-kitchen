@@ -3,7 +3,7 @@ title: Onion Bhaji
 author: Sowmya B A
 datePublished: 2017-05-24T11:18:33.670Z
 description: 'Spicy fried crisp fritters made with onion, gram flour and spices.'
-image: /img/Onion-Bhaji.jpg
+image: ./img/Onion-Bhaji.jpg
 totalTimeHours: '0'
 totalTimeMinutes: '30'
 recipeYield: 3-4

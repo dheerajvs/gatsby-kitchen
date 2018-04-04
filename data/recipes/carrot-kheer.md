@@ -3,7 +3,7 @@ title: Carrot Kheer
 author: Sowmya B A
 datePublished: 2017-07-03T07:08:47.503Z
 description: 'Tasty, easy to make healthy South Indian dessert'
-image: /img/Carrot-Kheer.jpg
+image: ./img/Carrot-Kheer.jpg
 totalTimeHours: '0'
 totalTimeMinutes: '20'
 recipeYield: '4'

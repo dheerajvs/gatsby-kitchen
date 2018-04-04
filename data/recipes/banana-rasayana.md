@@ -3,13 +3,13 @@ title: Banana Rasayana
 author: Sowmya B A
 datePublished: 2017-05-29T05:51:10.790Z
 description: Yummy dessert that can be add anytime of the day
-image: /img/Banana Rasayana 1.jpg
+image: ./img/Banana Rasayana 1.jpg
 totalTimeHours: '0'
 totalTimeMinutes: '10'
 recipeYield: '4'
 recipeIngredient: |-
   - Bananas
-   - 6 nos. if small else 3 nos. 
+   - 6 nos. if small else 3 nos.
   - Freshly grated coconut
    - 3 tbsp
   - Sugar / Jaggery, finely powdered
@@ -30,7 +30,7 @@ recipeInstructions: >-
   along dosa, pooris or chapathis
 
 
-  #Note: 
+  #Note:
 
   * Instead of adding freshly grated coconut in step-2, we can add coconut milk.
 

@@ -3,7 +3,7 @@ title: Sabudana Kheer
 author: Sowmya B A
 datePublished: 2017-09-01T17:53:16.133Z
 description: Sabudana Kheer is a traditional Indian dessert made of sago pearls.
-image: /img/Sabudana-Kheer.jpg
+image: ./img/Sabudana-Kheer.jpg
 totalTimeHours: '0'
 totalTimeMinutes: '30'
 recipeYield: '4'

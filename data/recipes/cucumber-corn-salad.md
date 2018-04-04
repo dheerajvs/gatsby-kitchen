@@ -3,7 +3,7 @@ title: Cucumber with Sweet Corn Salad
 author: Sowmya B A
 datePublished: 2018-01-17T13:55:22.259Z
 description: 'An healthy appetizer, can be had anytime of the day.'
-image: /img/Cucumber-Corn-Salad.jpg
+image: ./img/Cucumber-Corn-Salad.jpg
 totalTimeHours: '0'
 totalTimeMinutes: '15'
 recipeYield: 4-5

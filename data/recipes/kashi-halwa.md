@@ -5,7 +5,7 @@ datePublished: 2016-10-07T00:00:00.000Z
 description: >-
   Kashi Halwa is a delicious Indian recipe made from ash guard, served hot as a
   dessert
-image: /img/Kashi-Halwa.jpg
+image: ./img/Kashi-Halwa.jpg
 totalTimeHours: '1'
 totalTimeMinutes: '0'
 recipeYield: 4 servings

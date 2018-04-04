@@ -5,7 +5,7 @@ datePublished: 2017-08-30T13:09:28.776Z
 description: >-
   Masala vada is a fried tea time snack, special of South Indian homes served
   with coconut mint chutney.
-image: /img/Masala-Vada.jpg
+image: ./img/Masala-Vada.jpg
 totalTimeHours: '2'
 totalTimeMinutes: '0'
 recipeYield: '4'

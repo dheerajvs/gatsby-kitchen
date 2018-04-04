@@ -3,7 +3,7 @@ title: Kosambari
 author: Sowmya B A
 datePublished: 2017-09-02T15:45:39.876Z
 description: Kosambari is a popular festive time salad of South India.
-image: /img/Hesarubele-Kosambari.jpg
+image: ./img/Hesarubele-Kosambari.jpg
 totalTimeHours: '0'
 totalTimeMinutes: '25'
 recipeYield: '4'

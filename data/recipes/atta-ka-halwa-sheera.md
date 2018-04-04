@@ -5,7 +5,7 @@ datePublished: 2017-11-07T12:31:53.146Z
 description: >-
   Wheat Flour Halwa also know as "Atta ka Halwa" a smooth sweet pudding made
   with whole wheat flour, a popular North Indian dessert.
-image: /img/Wheat_Flour_Halwa.jpg
+image: ./img/Wheat_Flour_Halwa.jpg
 totalTimeHours: '0'
 totalTimeMinutes: '30'
 recipeYield: '4'
@@ -31,7 +31,7 @@ recipeIngredient: |-
 recipeInstructions: >-
   * Boil water in a pan over medium heat. Add sugar when the water gets to boil.
   Bring the syrup to full boil and mix it well making sure sugar is dissolved,
-  and turn off the heat. Set aside. 
+  and turn off the heat. Set aside.
 
   * In a thick bottomed dry pan over low medium heat, add ghee and let the ghee
   melt.

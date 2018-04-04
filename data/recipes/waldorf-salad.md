@@ -6,7 +6,7 @@ description: >-
   Waldorf Salad is generally made of fresh apples, celery, grapes and walnuts,
   dressed in mayonnaise, and usually served on a bed of lettuce as an appetizer
   or a light meal.
-image: /img/Waldorf-Salad.jpg
+image: ./img/Waldorf-Salad.jpg
 totalTimeHours: '0'
 totalTimeMinutes: '10'
 recipeYield: 4-5

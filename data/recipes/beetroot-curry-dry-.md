@@ -5,7 +5,7 @@ datePublished: 2017-12-08T12:16:57.198Z
 description: >-
   Stir fried beetroot curry is a healthy South Indian dry side dish, good to be
   eaten with rice or rotis.
-image: /img/Dry-Beetroot-Curry.jpg
+image: ./img/Dry-Beetroot-Curry.jpg
 totalTimeHours: '0'
 totalTimeMinutes: '30'
 recipeYield: '2'

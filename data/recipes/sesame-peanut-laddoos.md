@@ -3,7 +3,7 @@ title: Sesame Peanut Laddoos
 author: Sowmya B A
 datePublished: 2016-10-26T00:00:00.000Z
 description: 'Sesame Peanut Laddoos is an easy to make healthy, sugar free sweet.'
-image: /img/Sesame-Peanut-Laddoos.jpg
+image: ./img/Sesame-Peanut-Laddoos.jpg
 totalTimeHours: '0'
 totalTimeMinutes: '45'
 recipeYield: 6-8 servings

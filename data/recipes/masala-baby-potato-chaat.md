@@ -3,7 +3,7 @@ title: Masala Baby Potato Chaat
 author: Sowmya B A
 datePublished: 2017-12-17T14:29:12.847Z
 description: Easy to make tea time baby potato snack.
-image: /img/Masala-BabyPotato.jpg
+image: ./img/Masala-BabyPotato.jpg
 totalTimeHours: '0'
 totalTimeMinutes: '30'
 recipeYield: '2'

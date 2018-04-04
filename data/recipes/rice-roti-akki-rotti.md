@@ -5,7 +5,7 @@ datePublished: 2018-01-18T14:19:52.405Z
 description: >-
   Rice Roti, popularly known as "Akki rotti" is a rice-based staple breakfast,
   very unique of Karnataka.
-image: /img/Akki-Rotti.jpg
+image: ./img/Akki-Rotti.jpg
 totalTimeHours: '0'
 totalTimeMinutes: '30'
 recipeYield: 3-4

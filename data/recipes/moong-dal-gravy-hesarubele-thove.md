@@ -5,7 +5,7 @@ datePublished: 2018-01-17T14:27:02.628Z
 description: >-
   Moong Dal Gravy also known as "Hesarubele Thove" a staple food commonly had
   with idli or rice made of moong dal and tomato.
-image: /img/MoongDal-Gravy.jpg
+image: ./img/MoongDal-Gravy.jpg
 totalTimeHours: '0'
 totalTimeMinutes: '30'
 recipeYield: 4-5

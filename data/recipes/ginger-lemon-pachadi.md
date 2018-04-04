@@ -5,7 +5,7 @@ datePublished: 2017-08-20T17:13:23.176Z
 description: >-
   Simple tangy, spicy, juicy mouth watering Andhra style pachadi / pickle made
   of ginger and lemon. 
-image: /img/Lemon-Ginger-Pickle.jpg
+image: ./img/Lemon-Ginger-Pickle.jpg
 totalTimeHours: '0'
 totalTimeMinutes: '10'
 recipeYield: '6'

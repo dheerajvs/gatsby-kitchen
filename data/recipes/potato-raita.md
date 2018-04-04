@@ -5,7 +5,7 @@ datePublished: 2018-01-19T06:44:00.970Z
 description: >-
   Potato Raita, a simple side dish or a light meal that can be had anytime of
   the day.
-image: /img/Potato-Raita.jpg
+image: ./img/Potato-Raita.jpg
 totalTimeHours: '0'
 totalTimeMinutes: '30'
 recipeYield: 4-5

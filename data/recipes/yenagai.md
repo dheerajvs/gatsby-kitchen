@@ -5,7 +5,7 @@ datePublished: 2016-10-07T00:00:00.000Z
 description: >-
   Yennegai or stuffed eggplant is a mouth watering North Karnataka side dish for
   rotis and rice.
-image: /img/Yennegai.jpg
+image: ./img/Yennegai.jpg
 totalTimeHours: '0'
 totalTimeMinutes: '45'
 recipeYield: 2 servings

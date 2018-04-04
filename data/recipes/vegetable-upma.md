@@ -5,7 +5,7 @@ datePublished: 2017-12-24T16:15:12.618Z
 description: >-
   Healthy South Indian breakfast or tea time snacks made of semolina. Popularly
   called Khara Bhath.
-image: /img/Vegetable-Upma.jpg
+image: ./img/Vegetable-Upma.jpg
 totalTimeHours: '0'
 totalTimeMinutes: '30'
 recipeYield: 4-5

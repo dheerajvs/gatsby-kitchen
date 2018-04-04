@@ -5,7 +5,7 @@ datePublished: 2017-07-06T07:48:03.253Z
 description: >-
   Lemon Cucumber Chutney also known as Dosakaya Pachadi is a mild, tangy and
   spicy chutney very popular of Andhra.
-image: /img/Lemon-Cucumber-Chutney.jpg
+image: ./img/Lemon-Cucumber-Chutney.jpg
 totalTimeHours: '0'
 totalTimeMinutes: '15'
 recipeYield: 5-6

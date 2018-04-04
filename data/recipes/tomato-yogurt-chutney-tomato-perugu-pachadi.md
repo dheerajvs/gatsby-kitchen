@@ -5,7 +5,7 @@ datePublished: 2017-11-23T07:39:00.723Z
 description: >-
   Tomato Yogurt Chutney, also known as Tomato Perugu Pachadi in Andhra is
   seasoned yogurt with tomatoes.
-image: /img/Tomato-Perugu-Pachadi.jpg
+image: ./img/Tomato-Perugu-Pachadi.jpg
 totalTimeHours: '0'
 totalTimeMinutes: '20'
 recipeYield: '6'

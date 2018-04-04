@@ -5,7 +5,7 @@ datePublished: 2016-10-07T00:00:00.000Z
 description: >-
   Dal makhani is a very popular dish from Punjab made of lentils, cream and
   butter
-image: /img/Dal-Makhani.jpg
+image: ./img/Dal-Makhani.jpg
 totalTimeHours: '0'
 totalTimeMinutes: '45'
 recipeYield: 4 servings

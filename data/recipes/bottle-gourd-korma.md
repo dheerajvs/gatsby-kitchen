@@ -5,7 +5,7 @@ datePublished: 2017-12-19T13:02:27.226Z
 description: >-
   Bottle Gourd Korma is an sumptuous South Indian side dish for tawa roti or
   rice.
-image: /img/BottleGourd-Korma.jpg
+image: ./img/BottleGourd-Korma.jpg
 totalTimeHours: '0'
 totalTimeMinutes: '30'
 recipeYield: '4'

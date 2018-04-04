@@ -3,7 +3,7 @@ title: Onion Raita
 author: Sowmya B A
 datePublished: 2018-01-02T09:22:49.922Z
 description: Raita generally had as a starter or side dish along with spicy main course.
-image: /img/Onion-Raita.jpg
+image: ./img/Onion-Raita.jpg
 totalTimeHours: '0'
 totalTimeMinutes: '10'
 recipeYield: 4-5

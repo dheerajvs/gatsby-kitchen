@@ -3,7 +3,7 @@ title: Mango Pickle (Instant Variety)
 author: Sowmya B A
 datePublished: 2017-06-01T09:48:05.465Z
 description: Yummy home made spicy mango pickle
-image: /img/Mango-Pickle3.jpg
+image: ./img/Mango-Pickle3.jpg
 totalTimeHours: '24'
 totalTimeMinutes: '20'
 recipeYield: 1 Jar

@@ -5,7 +5,7 @@ datePublished: 2017-12-02T06:19:57.889Z
 description: >-
   Potato sagu, an excellent South Indian side dish for Rava Idli, Poori,
   Chapati.
-image: /img/Potato-Sagu.jpg
+image: ./img/Potato-Sagu.jpg
 totalTimeHours: '0'
 totalTimeMinutes: '30'
 recipeYield: '2'

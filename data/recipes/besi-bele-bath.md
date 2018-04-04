@@ -5,7 +5,7 @@ datePublished: 2018-01-02T06:03:35.361Z
 description: >-
   Popular Karnataka main course loaded with lentil, rice, mixed vegetables and
   spices.
-image: /img/Besi-Bele-Bath.jpg
+image: ./img/Besi-Bele-Bath.jpg
 totalTimeHours: '0'
 totalTimeMinutes: '45'
 recipeYield: '5'

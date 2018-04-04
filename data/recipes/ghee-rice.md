@@ -3,7 +3,7 @@ title: Ghee Rice
 author: Sowmya B A
 datePublished: 2017-05-23T06:12:34.232Z
 description: Aromatic easy to make yummy spicy South Indian main course rice
-image: /img/default-recipe.png
+image: ./img/default-recipe.png
 totalTimeHours: '0'
 totalTimeMinutes: '30'
 recipeYield: '2'

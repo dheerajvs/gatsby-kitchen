@@ -5,7 +5,7 @@ datePublished: 2017-07-19T13:11:31.488Z
 description: >-
   Carrot pachadi is a yummy South Indian chutney that can be had with rice or
   roties.
-image: /img/Tomato-Soup.jpg
+image: ./img/Tomato-Soup.jpg
 totalTimeHours: '0'
 totalTimeMinutes: '20'
 recipeYield: '6'
@@ -22,7 +22,7 @@ recipeIngredient: |-
    - 1/2 tsp
   - Fenugreek
    - 1/4 tsp
-  - Green chilly 
+  - Green chilly
    - 4 no., this is based on the hotness of the chilly
   - Red chilly
    - 4 no.

@@ -5,7 +5,7 @@ datePublished: 2018-01-16T16:52:18.620Z
 description: >-
   Sweet Pongal is a delicacy made of rice, dhal, ghee and jaggery. Its a must do
   dish during Makar Sankranti festival.
-image: /img/Sweet-Pongal.jpg
+image: ./img/Sweet-Pongal.jpg
 totalTimeHours: '0'
 totalTimeMinutes: '30'
 recipeYield: 2-3

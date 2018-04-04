@@ -5,7 +5,7 @@ datePublished: 2017-12-13T16:32:07.804Z
 description: >-
   Spicy and tangy gooseberry pickle is nice to be had with rice or as a side
   dish with any other main course.
-image: /img/Gooseberry-Pickle.jpg
+image: ./img/Gooseberry-Pickle.jpg
 totalTimeHours: '0'
 totalTimeMinutes: '20'
 recipeYield: '20'

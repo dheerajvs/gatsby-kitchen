@@ -5,7 +5,7 @@ datePublished: 2017-12-08T13:31:21.131Z
 description: >-
   Stir fried bitter guard dry curry is a healthy South Indian Curry, can be had
   with rice or rotis.
-image: /img/Stir-Fried-BitterGourd-Curry.jpg
+image: ./img/Stir-Fried-BitterGourd-Curry.jpg
 totalTimeHours: '0'
 totalTimeMinutes: '30'
 recipeYield: '4'

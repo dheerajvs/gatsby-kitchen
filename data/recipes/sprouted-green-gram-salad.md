@@ -3,7 +3,7 @@ title: Sprouted Green Gram Salad
 author: Sowmya B A
 datePublished: 2018-01-24T13:58:52.555Z
 description: Easy to make popular Karnataka style kosambari an appetizer
-image: /img/Sprouted-GreenGram-Salad.jpg
+image: ./img/Sprouted-GreenGram-Salad.jpg
 totalTimeHours: '0'
 totalTimeMinutes: '10'
 recipeYield: 4-5

@@ -3,7 +3,7 @@ title: Doddapatre Thambuli
 author: Sowmya B A
 datePublished: 2017-05-24T11:48:05.018Z
 description: Curd / Yoghurt based Karnataka style side dish made using doddapatre leaf
-image: /img/Doddapatre-Thambuli.jpg
+image: ./img/Doddapatre-Thambuli.jpg
 totalTimeHours: '0'
 totalTimeMinutes: '15'
 recipeYield: 3-4

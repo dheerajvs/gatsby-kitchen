@@ -5,7 +5,7 @@ datePublished: 2018-01-01T16:19:59.232Z
 description: >-
   South Indian spicy gravy made of raw jack-fruit. Generally enjoyed with white
   rice.
-image: /img/Raw-Jackfruit-Chops.jpg
+image: ./img/Raw-Jackfruit-Chops.jpg
 totalTimeHours: '0'
 totalTimeMinutes: '30'
 recipeYield: 4-5

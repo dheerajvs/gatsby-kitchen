@@ -3,7 +3,7 @@ title: Tomato Rice
 author: Sowmya B A
 datePublished: 2016-10-07T00:00:00.000Z
 description: Tomato Rice is an easy to make yummy spicy rice dish from South India.
-image: /img/tomato-rice.jpg
+image: ./img/tomato-rice.jpg
 totalTimeHours: '0'
 totalTimeMinutes: '30'
 recipeYield: 2 servings

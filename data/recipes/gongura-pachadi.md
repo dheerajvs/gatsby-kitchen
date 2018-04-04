@@ -5,7 +5,7 @@ datePublished: 2017-08-31T13:10:54.929Z
 description: >-
   Gongura pachadi is made using gongura also known as roselle leaves, very
   popular of Andhra.
-image: /img/Gongura-Pachadi.jpg
+image: ./img/Gongura-Pachadi.jpg
 totalTimeHours: '0'
 totalTimeMinutes: '30'
 recipeYield: '6'

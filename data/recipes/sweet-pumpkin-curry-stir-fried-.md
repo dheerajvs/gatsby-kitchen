@@ -3,7 +3,7 @@ title: Sweet Pumpkin Curry (Stir Fried - Dry)
 author: Sowmya B A
 datePublished: 2018-01-18T13:29:11.547Z
 description: Sweetish tasting semi gravy side dish that can be had with rice or rice roti.
-image: /img/Sweet-Pumpkin-Curry.jpg
+image: ./img/Sweet-Pumpkin-Curry.jpg
 totalTimeHours: '0'
 totalTimeMinutes: '30'
 recipeYield: 4-5

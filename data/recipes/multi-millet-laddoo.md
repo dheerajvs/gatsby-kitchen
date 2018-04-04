@@ -5,7 +5,7 @@ datePublished: 2018-03-29T12:32:32.179Z
 description: >-
   Easy to make, highly nutritious, low calorie sweet that can be had anytime of
   the day
-image: /img/Sesame-Peanut-Laddoos.jpg
+image: ./img/Sesame-Peanut-Laddoos.jpg
 totalTimeHours: '0'
 totalTimeMinutes: '30'
 recipeYield: 10-12

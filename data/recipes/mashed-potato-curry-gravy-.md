@@ -5,7 +5,7 @@ datePublished: 2018-01-04T14:53:53.121Z
 description: >-
   South Indian potato curry, good to be eaten as side dish with Dosa or Poori.
   Can be had with steamed rice too. 
-image: /img/Mashed-Potato-Curry(Gravy).jpg
+image: ./img/Mashed-Potato-Curry(Gravy).jpg
 totalTimeHours: '0'
 totalTimeMinutes: '30'
 recipeYield: 3-4

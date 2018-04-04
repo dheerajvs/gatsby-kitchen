@@ -3,7 +3,7 @@ title: Broken Wheat Upma
 author: Sowmya B A
 datePublished: 2017-07-05T05:34:42.491Z
 description: Healthy South Indian breakfast
-image: /img/Tomato-Soup.jpg
+image: ./img/Tomato-Soup.jpg
 totalTimeHours: '0'
 totalTimeMinutes: '45'
 recipeYield: '4'

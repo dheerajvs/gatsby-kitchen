@@ -3,7 +3,7 @@ title: Coconut Rice
 author: Sowmya B A
 datePublished: 2017-09-04T13:27:09.501Z
 description: South Indian flavored rice made using fresh coconut.
-image: /img/Coconut-Rice.jpg
+image: ./img/Coconut-Rice.jpg
 totalTimeHours: '0'
 totalTimeMinutes: '30'
 recipeYield: '2'

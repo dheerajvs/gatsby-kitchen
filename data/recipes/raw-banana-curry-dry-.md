@@ -3,7 +3,7 @@ title: Raw Banana Curry (Stir Fried - Dry)
 author: Sowmya B A
 datePublished: 2018-01-24T14:41:04.733Z
 description: Simple South Indian side dish that can be had along rasam rice or sambar rice.
-image: /img/Raw-Banana-Curry.jpg
+image: ./img/Raw-Banana-Curry.jpg
 totalTimeHours: '0'
 totalTimeMinutes: '30'
 recipeYield: 4-5
