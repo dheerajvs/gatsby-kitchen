@@ -21,7 +21,13 @@ export const pageQuery = graphql`
           frontmatter {
             title
             description
-            image
+            image {
+              childImageSharp {
+                sizes(maxHeight: 512) {
+                  ...GatsbyImageSharpSizes
+                }
+              }
+            }
           }
         }
       }

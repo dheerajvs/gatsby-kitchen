@@ -14,10 +14,13 @@ module.exports = {
         name: 'recipes',
       },
     },
+    `gatsby-plugin-sharp`,
+    `gatsby-transformer-sharp`,
     {
       resolve: 'gatsby-transformer-remark',
       options: {
-        plugins: [],
+        plugins: [
+        ],
       },
     },
     {
