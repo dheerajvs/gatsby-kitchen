@@ -5,7 +5,7 @@ datePublished: 2016-10-07T00:00:00.000Z
 description: >-
   Vathal Kuzhambu is a spicy and tangy traditional Indian gravy native of Tamil
   Nadu
-image: vathal-kuzhambu.jpg
+image: /img/default-recipe.png
 totalTimeHours: '0'
 totalTimeMinutes: '25'
 recipeYield: 4 servings

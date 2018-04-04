@@ -3,7 +3,7 @@ title: Ghee Rice
 author: Sowmya B A
 datePublished: 2017-05-23T06:12:34.232Z
 description: Aromatic easy to make yummy spicy South Indian main course rice
-image: /img/GheeRice.jpg
+image: /img/default-recipe.png
 totalTimeHours: '0'
 totalTimeMinutes: '30'
 recipeYield: '2'
@@ -21,7 +21,7 @@ recipeIngredient: |-
   - Green Chillies
    - 2-3 nos. finely chopped
   - Coconut milk
-   - ¾ cup 
+   - ¾ cup
   - Water
    - 1 cup
   - Salt
@@ -64,7 +64,7 @@ recipeInstructions: >-
 
   * Now add the coconut milk and water.
 
-  * Add salt as per taste. 
+  * Add salt as per taste.
 
   * Cover the pan with a tight fitting lid. Simmer till the rice is cooked and
   all the water is absorbed. OR if you are using a pressure cooker, pressure
