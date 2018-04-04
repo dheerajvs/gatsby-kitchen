@@ -1,8 +1,8 @@
 import React from 'react'
 import Helmet from 'react-helmet'
+import 'material-components-web/material-components-web.scss'
 
 import Header from '../components/Header'
-// import './index.css'
 
 const TemplateWrapper = ({ children }) => {
   return (

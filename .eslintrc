@@ -7,14 +7,14 @@
     "sourceType": "module"
   },
   "env": {
-    "browser": true
+    "browser": true,
+    "node": true
   },
   "rules": {
-    "react/prop-types": 0
+    "react/prop-types": "off",
+    "no-console": "off"
   },
   "globals": {
-    "__dirname": false,
-    "graphql": false,
-    "module": false
+    "graphql": false
   }
 }

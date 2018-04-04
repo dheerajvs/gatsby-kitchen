@@ -1,14 +1,15 @@
 import React from 'react'
-import Link from 'gatsby-link'
+import { Toolbar, ToolbarRow } from 'rmwc/Toolbar'
+import { Button } from 'rmwc/Button';
 
 const Header = () => (
-  <h1>
-    <Link
-      to="/"
-    >
-      Gatsby
-    </Link>
-  </h1>
+  <Toolbar>
+    <ToolbarRow>
+      <Button dense theme="primary-bg text-primary-on-primary">Home</Button>
+      <Button dense theme="primary-bg text-primary-on-primary">Categories</Button>
+      <Button dense theme="primary-bg text-primary-on-primary">About</Button>
+    </ToolbarRow>
+  </Toolbar>
 )
 
 export default Header

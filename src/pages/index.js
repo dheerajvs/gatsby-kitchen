@@ -1,14 +1,11 @@
 import React from 'react';
-// import Link from 'gatsby-link';
 
 import PostListing from '../components/PostListing'
 
 const IndexPage = ({ data }) => {
   const postEdges = data.allMarkdownRemark.edges;
   return (
-    <div>
-      <PostListing postEdges={postEdges} />
-    </div>
+    <PostListing postEdges={postEdges} />
   );
 }
 
@@ -23,6 +20,8 @@ export const pageQuery = graphql`
         node {
           frontmatter {
             title
+            description
+            image
           }
         }
       }
