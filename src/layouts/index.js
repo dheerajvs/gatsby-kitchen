@@ -1,5 +1,6 @@
 import React from 'react'
 import Helmet from 'react-helmet'
+import './reset.css'
 import 'material-components-web/material-components-web.scss'
 
 import Header from '../components/Header'

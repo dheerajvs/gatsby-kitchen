@@ -1,27 +1,32 @@
 import React from 'react'
 import Img from 'gatsby-image'
+import Link from 'gatsby-link'
 import {
   GridList,
   GridTile,
   GridTilePrimary,
   GridTilePrimaryContent,
 } from 'rmwc/GridList'
-import { Typography } from 'rmwc/Typography'
+
+import { GridTileSecondaryStyled, GridTileTitleStyled } from './styled'
 
 const PostListing = ({ postEdges }) => (
   <GridList tileAspect="3x2">
     {postEdges.map((post, i) => {
-      const { frontmatter } = post.node
+      const { fields, frontmatter } = post.node
       return (
-        <GridTile key={i}>
-          <GridTilePrimary>
-            <GridTilePrimaryContent>
-              <Img sizes={frontmatter.image.childImageSharp.sizes} />
-            </GridTilePrimaryContent>
-          </GridTilePrimary>
-          <Typography use="title">{frontmatter.title}</Typography>
-          <Typography use="subheading1">{frontmatter.description}</Typography>
-        </GridTile>
+        <Link key={i} to={fields.slug}>
+          <GridTile>
+            <GridTilePrimary>
+              <GridTilePrimaryContent>
+                <Img sizes={frontmatter.image.childImageSharp.sizes} />
+              </GridTilePrimaryContent>
+            </GridTilePrimary>
+            <GridTileSecondaryStyled>
+              <GridTileTitleStyled>{frontmatter.title}</GridTileTitleStyled>
+            </GridTileSecondaryStyled>
+          </GridTile>
+        </Link>
       )
     })}
   </GridList>

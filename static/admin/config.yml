@@ -1,0 +1,99 @@
+backend:
+  name: github
+  repo: dheerajvs/gatsby-kitchen
+  branch: master
+
+media_folder: "data/recipes/img"
+public_folder: "/static"
+
+collections: # A list of collections the CMS should be able to edit
+  - name: "authors" # Used in routes, ie.: /admin/collections/:slug/edit
+    label: "Authors" # Used in the UI
+    label_singular: "Author" # Used in the UI, ie: "New Authors"
+    description: >
+      Details of the recipe authors.
+    folder: "data/authors"
+    slug: "{{slug}}"
+    create: true # Allow users to create new documents in this collection
+    fields: # The fields each document in this collection have
+      - {label: "Name", name: "title", widget: "string"}
+      - {label: "Avatar", name: "avatar", widget: "image"}
+  - name: "recipes" # Used in routes, ie.: /admin/collections/:slug/edit
+    label: "Recipes" # Used in the UI
+    label_singular: "Recipe" # Used in the UI, ie: "New Recipe"
+    description: >
+      Fill up the fields for the recipe.
+    folder: "data/recipes"
+    slug: "{{slug}}"
+    create: true # Allow users to create new documents in this collection
+    fields: # The fields each document in this collection have
+      - {label: "Title", name: "title", widget: "string", tagname: "h1"}
+      - label: "Author"
+        name: "author"
+        widget: "relation"
+        collection: "authors"
+        searchFields: ["title"]
+        valueField: "title"
+      - {label: "Publish Date", name: "date", widget: "date", format: "ll"}
+      - {label: "Description", name: "description", widget: "text"}
+      - {label: "Image", name: "image", widget: "image"}
+      - label: "Time"
+        name: "time"
+        widget: "object"
+        fields:
+          - label: "Prep Hours"
+            name: "prepHours"
+            widget: "number"
+            default: 0
+            valueType: "int"
+            min: 0
+            max: 24
+          - label: "Prep Minutes"
+            name: "prepMinutes"
+            widget: "number"
+            default: 30
+            valueType: "int"
+            min: 0
+            max: 59
+          - label: "Total Hours"
+            name: "totalHours"
+            widget: "number"
+            default: 0
+            valueType: "int"
+            min: 0
+            max: 24
+          - label: "Total Minutes"
+            name: "totalMinutes"
+            widget: "number"
+            default: 30
+            valueType: "int"
+            min: 0
+            max: 59
+      - label: "Yield"
+        name: "yield"
+        widget: "object"
+        fields:
+          - label: "Quantity"
+            name: "quantity"
+            widget: "number"
+            valueType: "string"
+          - {label: "Unit", name: "unit", widget: "string"}
+      - label: "Recipe Ingredients"
+        name: "recipeIngredients"
+        widget: "list"
+        fields:
+          - label: "Section"
+            name: "section"
+            widget: "string"
+            required: false
+          - label: "Ingredients"
+            name: "ingredients"
+            widget: "list"
+            fields:
+              - {label: "Ingredient", name: "ingredient", widget: "string"}
+              - label: "Quantity"
+                name: "quantity"
+                widget: "number"
+                valueType: "string"
+              - {label: "Unit", name: "unit", widget: "string"}
+      - {label: "Body", name: "body", widget: "markdown"}

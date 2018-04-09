@@ -14,20 +14,20 @@ module.exports = {
         name: 'recipes',
       },
     },
-    `gatsby-plugin-sharp`,
-    `gatsby-transformer-sharp`,
+    'gatsby-plugin-sharp',
+    'gatsby-transformer-sharp',
     {
       resolve: 'gatsby-transformer-remark',
       options: {
-        plugins: [
-        ],
+        plugins: [],
       },
     },
     {
-      resolve: 'gatsby-plugin-sass',
+      resolve: "gatsby-plugin-sass",
       options: {
-        includePaths: [`${__dirname}/node_modules`],
-      },
+        includePaths: [`${__dirname}/node_modules`]
+      }
     },
+    'gatsby-plugin-styled-components',
   ],
 }

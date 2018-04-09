@@ -1,18 +1,85 @@
 import React from 'react'
 import Helmet from 'react-helmet'
+import Img from 'gatsby-image'
 import Link from 'gatsby-link'
+import { List, SimpleListItem } from 'rmwc/List'
+import { Typography } from 'rmwc/Typography'
+import styled from 'styled-components'
+
+import Avatar from '../components/Avatar'
+
+const Container = styled.main`
+  margin: 0 auto;
+  max-width: 600px;
+`
+
+const HorizontalSection = styled.section`
+  display: flex;
+  align-items: center;
+`
+
+const TitleText = styled(Typography).attrs({
+  use: 'title',
+  tag: 'h2',
+})`
+  line-height: 'normal';
+`
+
+const BodyText = styled(Typography).attrs({
+  use: 'body1',
+  tag: 'div',
+})``
 
 const RecipePostTemplate = ({ data, pathContext }) => {
-  const post = data.markdownRemark
-  const siteTitle = data.site.siteMetadata.title
+  const { frontmatter } = data.markdownRemark
   const { previous, next } = pathContext
 
   return (
-    <div>
-      <Helmet title={`${post.frontmatter.title} | ${siteTitle}`} />
-      <h1>{post.frontmatter.title}</h1>
-      <p>{post.frontmatter.datePublished}</p>
-      <div dangerouslySetInnerHTML={{ __html: post.frontmatter.recipeInstructions }} />
+    <Container>
+      <Helmet
+        title={`${frontmatter.title} | ${data.site.siteMetadata.title}`}
+      />
+      <article>
+        <HorizontalSection style={{ padding: '16px 0' }}>
+          <Avatar />
+          <div>
+            <Typography
+              use="subheading2"
+              tag="div"
+              style={{ lineHeight: 'normal' }}
+            >
+              {frontmatter.author}
+            </Typography>
+            <Typography
+              use="body1"
+              tag="time"
+              dateTime={frontmatter.datePublished}
+            >
+              {frontmatter.dateFormatted}
+            </Typography>
+          </div>
+        </HorizontalSection>
+        <Img sizes={frontmatter.image.childImageSharp.sizes} />
+        <section style={{ padding: '0 8px 8px 8px' }}>
+          <TitleText>{frontmatter.title}</TitleText>
+          <BodyText>{frontmatter.description}</BodyText>
+        </section>
+        <section style={{ padding: '0 8px 8px 8px' }}>
+          <TitleText>Ingredients</TitleText>
+          <BodyText>Yield: {frontmatter.recipeYield}</BodyText>
+          <List avatarList twoLine>
+            <SimpleListItem graphic="" text="Honey" secondaryText="1 tbsp" />
+            <SimpleListItem graphic="" text="Yogurt" secondaryText="½ cup" />
+          </List>
+        </section>
+        <section style={{ padding: '0 8px 8px 8px' }}>
+          <TitleText>Procedure</TitleText>
+          <BodyText>{`Time: ${frontmatter.totalTimeHours}:${
+            frontmatter.totalTimeMinutes
+          }`}</BodyText>
+          <div>{frontmatter.recipeInstructions}</div>
+        </section>
+      </article>
 
       <ul>
         {previous && (
@@ -31,7 +98,7 @@ const RecipePostTemplate = ({ data, pathContext }) => {
           </li>
         )}
       </ul>
-    </div>
+    </Container>
   )
 }
 
@@ -50,7 +117,22 @@ export const pageQuery = graphql`
       html
       frontmatter {
         title
-        datePublished(formatString: "ll")
+        author
+        datePublished
+        dateFormatted: datePublished(formatString: "ll")
+        description
+        image {
+          childImageSharp {
+            sizes(maxHeight: 512) {
+              ...GatsbyImageSharpSizes
+            }
+          }
+        }
+        totalTimeHours
+        totalTimeMinutes
+        recipeYield
+        recipeIngredient
+        recipeInstructions
       }
     }
   }
