@@ -6,27 +6,48 @@ backend:
 media_folder: "data/recipes/img"
 public_folder: "/static"
 
-collections: # A list of collections the CMS should be able to edit
-  - name: "authors" # Used in routes, ie.: /admin/collections/:slug/edit
-    label: "Authors" # Used in the UI
-    label_singular: "Author" # Used in the UI, ie: "New Authors"
+collections:
+  - name: "authors"
+    label: "Authors"
+    label_singular: "Author"
     description: >
       Details of the recipe authors.
     folder: "data/authors"
     slug: "{{slug}}"
-    create: true # Allow users to create new documents in this collection
-    fields: # The fields each document in this collection have
+    create: true
+    fields:
       - {label: "Name", name: "title", widget: "string"}
       - {label: "Avatar", name: "avatar", widget: "image"}
-  - name: "recipes" # Used in routes, ie.: /admin/collections/:slug/edit
-    label: "Recipes" # Used in the UI
-    label_singular: "Recipe" # Used in the UI, ie: "New Recipe"
+      - {label: "About", name: "body", widget: "markdown"}
+  - name: "categories"
+    label: "Categories"
+    label_singular: "Category"
+    description: >
+      List of recipe categories.
+    folder: "data/categories"
+    slug: "{{slug}}"
+    create: true
+    fields:
+      - {label: "Name", name: "title", widget: "string"}
+  - name: "cuisines"
+    label: "Cuisines"
+    label_singular: "Cuisine"
+    description: >
+      List of recipe cuisines.
+    folder: "data/cuisines"
+    slug: "{{slug}}"
+    create: true
+    fields:
+      - {label: "Name", name: "title", widget: "string"}
+  - name: "recipes"
+    label: "Recipes"
+    label_singular: "Recipe"
     description: >
       Fill up the fields for the recipe.
     folder: "data/recipes"
     slug: "{{slug}}"
-    create: true # Allow users to create new documents in this collection
-    fields: # The fields each document in this collection have
+    create: true
+    fields:
       - {label: "Title", name: "name", widget: "string", tagname: "h1"}
       - label: "Author"
         name: "author"
@@ -37,7 +58,18 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Publish Date", name: "datePublished", widget: "date"}
       - {label: "Description", name: "description", widget: "text"}
       - {label: "Image", name: "image", widget: "image"}
-      - {label: "Category", name: "recipeCategory", widget: "string"}
+      - label: "Category"
+        name: "recipeCategory"
+        widget: "relation"
+        collection: "categories"
+        searchFields: ["title"]
+        valueField: "title"
+      - label: "Cuisine"
+        name: "recipeCuisine"
+        widget: "relation"
+        collection: "cuisine"
+        searchFields: ["title"]
+        valueField: "title"
       - {label: "Keywords", name: "keywords", widget: "list"}
       - label: "Time"
         name: "time"
