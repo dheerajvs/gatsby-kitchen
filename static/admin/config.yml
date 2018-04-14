@@ -27,16 +27,18 @@ collections: # A list of collections the CMS should be able to edit
     slug: "{{slug}}"
     create: true # Allow users to create new documents in this collection
     fields: # The fields each document in this collection have
-      - {label: "Title", name: "title", widget: "string", tagname: "h1"}
+      - {label: "Title", name: "name", widget: "string", tagname: "h1"}
       - label: "Author"
         name: "author"
         widget: "relation"
         collection: "authors"
         searchFields: ["title"]
         valueField: "title"
-      - {label: "Publish Date", name: "date", widget: "date"}
+      - {label: "Publish Date", name: "datePublished", widget: "date"}
       - {label: "Description", name: "description", widget: "text"}
       - {label: "Image", name: "image", widget: "image"}
+      - {label: "Category", name: "recipeCategory", widget: "string"}
+      - {label: "Keywords", name: "keywords", widget: "list"}
       - label: "Time"
         name: "time"
         widget: "object"
@@ -48,15 +50,15 @@ collections: # A list of collections the CMS should be able to edit
             valueType: "int"
             min: 0
             max: 24
-            pattern: ["^(0*\d|[0-2][0-4])$", "Must be a number between 0 and 24"]
+            pattern: ["^(0*\\d|[0-2][0-4])$", "Must be a number between 0 and 24"]
           - label: "Prep Minutes"
             name: "prepMinutes"
             widget: "number"
-            default: 30
+            default: 0
             valueType: "int"
             min: 0
             max: 59
-            pattern: ["^[0-5]?\d$", "Must be a number between 0 and 59"]
+            pattern: ["^[0-5]?\\d$", "Must be a number between 0 and 59"]
           - label: "Total Hours"
             name: "totalHours"
             widget: "number"
@@ -64,17 +66,29 @@ collections: # A list of collections the CMS should be able to edit
             valueType: "int"
             min: 0
             max: 24
+            pattern: ["^(0*\\d|[0-2][0-4])$", "Must be a number between 0 and 24"]
           - label: "Total Minutes"
             name: "totalMinutes"
             widget: "number"
-            default: 30
+            default: 0
             valueType: "int"
             min: 0
             max: 59
+            pattern: ["^[0-5]?\\d$", "Must be a number between 0 and 59"]
       - label: "Yield"
         name: "yield"
         widget: "string"
       - label: "Recipe Ingredients"
         name: "recipeIngredients"
         widget: "list"
+        fields:
+          - label: "Section"
+            name: "section"
+            widget: "string"
+            required: false
+          - label: "Ingredients"
+            name: "ingredients"
+            widget: "list"
+            fields:
+              - {label: "Ingredient", name: "recipeIngredient", widget: "string"}
       - {label: "Instructions", name: "body", widget: "markdown"}
