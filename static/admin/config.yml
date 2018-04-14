@@ -34,7 +34,7 @@ collections: # A list of collections the CMS should be able to edit
         collection: "authors"
         searchFields: ["title"]
         valueField: "title"
-      - {label: "Publish Date", name: "date", widget: "date", format: "ll"}
+      - {label: "Publish Date", name: "date", widget: "date"}
       - {label: "Description", name: "description", widget: "text"}
       - {label: "Image", name: "image", widget: "image"}
       - label: "Time"
@@ -48,6 +48,7 @@ collections: # A list of collections the CMS should be able to edit
             valueType: "int"
             min: 0
             max: 24
+            pattern: ["^(0*\d|[0-2][0-4])$", "Must be a number between 0 and 24"]
           - label: "Prep Minutes"
             name: "prepMinutes"
             widget: "number"
@@ -55,6 +56,7 @@ collections: # A list of collections the CMS should be able to edit
             valueType: "int"
             min: 0
             max: 59
+            pattern: ["^[0-5]?\d$", "Must be a number between 0 and 59"]
           - label: "Total Hours"
             name: "totalHours"
             widget: "number"
@@ -71,29 +73,8 @@ collections: # A list of collections the CMS should be able to edit
             max: 59
       - label: "Yield"
         name: "yield"
-        widget: "object"
-        fields:
-          - label: "Quantity"
-            name: "quantity"
-            widget: "number"
-            valueType: "string"
-          - {label: "Unit", name: "unit", widget: "string"}
+        widget: "string"
       - label: "Recipe Ingredients"
         name: "recipeIngredients"
         widget: "list"
-        fields:
-          - label: "Section"
-            name: "section"
-            widget: "string"
-            required: false
-          - label: "Ingredients"
-            name: "ingredients"
-            widget: "list"
-            fields:
-              - {label: "Ingredient", name: "ingredient", widget: "string"}
-              - label: "Quantity"
-                name: "quantity"
-                widget: "number"
-                valueType: "string"
-              - {label: "Unit", name: "unit", widget: "string"}
-      - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Instructions", name: "body", widget: "markdown"}
