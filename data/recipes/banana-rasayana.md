@@ -17,7 +17,7 @@ time:
   totalMinutes: 40
 recipeYield: 4 servings
 recipeIngredients:
-  - section: default
+  - section:
     ingredients:
       - recipeIngredient: '3 tablespoons sugar or jaggery, finely powdered'
       - recipeIngredient: '2 cardamoms, finely powered'
