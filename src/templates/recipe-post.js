@@ -2,7 +2,7 @@ import React from 'react'
 import Helmet from 'react-helmet'
 import Img from 'gatsby-image'
 import Link from 'gatsby-link'
-import { List, SimpleListItem } from 'rmwc/List'
+import { List, ListGroup, ListGroupSubheader, SimpleListItem } from 'rmwc/List'
 import { Typography } from 'rmwc/Typography'
 import styled from 'styled-components'
 
@@ -67,15 +67,23 @@ const RecipePostTemplate = ({ data, pathContext }) => {
         <section style={{ padding: '0 8px 8px 8px' }}>
           <TitleText>Ingredients</TitleText>
           <BodyText>Yield: {frontmatter.recipeYield}</BodyText>
-          <List avatarList twoLine>
-            <SimpleListItem graphic="" text="Honey" secondaryText="1 tbsp" />
-            <SimpleListItem graphic="" text="Yogurt" secondaryText="½ cup" />
-          </List>
+          <ListGroup>
+            {frontmatter.recipeIngredients.map((item, sectionIndex) => (
+              <div key={sectionIndex}>
+                <ListGroupSubheader>{item.section}</ListGroupSubheader>
+                <List nonInteractive>
+                  {item.ingredients.map((ingredient, index) => (
+                    <SimpleListItem key={index} text={ingredient} />
+                  ))}
+                </List>
+              </div>
+            ))}
+          </ListGroup>
         </section>
         <section style={{ padding: '0 8px 8px 8px' }}>
           <TitleText>Procedure</TitleText>
-          <BodyText>{`Time: ${frontmatter.totalTimeHours}:${
-            frontmatter.totalTimeMinutes
+          <BodyText>{`Time: ${frontmatter.time.totalHours}:${
+            frontmatter.time.totalMinutes
           }`}</BodyText>
           <div>{frontmatter.recipeInstructions}</div>
         </section>
@@ -128,11 +136,17 @@ export const pageQuery = graphql`
             }
           }
         }
-        totalTimeHours
-        totalTimeMinutes
+        time {
+          prepHours
+          prepMinutes
+          totalHours
+          totalMinutes
+        }
         recipeYield
-        recipeIngredient
-        recipeInstructions
+        recipeIngredients {
+          section
+          ingredients
+        }
       }
     }
   }

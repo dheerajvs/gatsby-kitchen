@@ -48,7 +48,7 @@ collections:
     slug: "{{slug}}"
     create: true
     fields:
-      - {label: "Title", name: "name", widget: "string", tagname: "h1"}
+      - {label: "Title", name: "title", widget: "string", tagname: "h1"}
       - label: "Author"
         name: "author"
         widget: "relation"
@@ -70,7 +70,7 @@ collections:
         collection: "cuisines"
         searchFields: ["title"]
         valueField: "title"
-      - {label: "Keywords", name: "keywords", widget: "list"}
+      - {label: "Keywords", name: "keywords", widget: "list", required: false}
       - label: "Time"
         name: "time"
         widget: "object"
@@ -108,7 +108,7 @@ collections:
             max: 59
             pattern: ["^[0-5]?\\d$", "Must be a number between 0 and 59"]
       - label: "Yield"
-        name: "yield"
+        name: "recipeYield"
         widget: "string"
       - label: "Recipe Ingredients"
         name: "recipeIngredients"
