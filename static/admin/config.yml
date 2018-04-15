@@ -67,7 +67,7 @@ collections:
       - label: "Cuisine"
         name: "recipeCuisine"
         widget: "relation"
-        collection: "cuisine"
+        collection: "cuisines"
         searchFields: ["title"]
         valueField: "title"
       - {label: "Keywords", name: "keywords", widget: "list"}
