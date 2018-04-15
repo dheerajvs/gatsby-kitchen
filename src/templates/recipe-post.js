@@ -72,8 +72,8 @@ const RecipePostTemplate = ({ data, pathContext }) => {
               <div key={sectionIndex}>
                 <ListGroupSubheader>{item.section}</ListGroupSubheader>
                 <List nonInteractive>
-                  {item.ingredients.map((ingredient, index) => (
-                    <SimpleListItem key={index} text={ingredient} />
+                  {item.ingredients.map(({ recipeIngredient }, index) => (
+                    <SimpleListItem key={index} text={recipeIngredient} />
                   ))}
                 </List>
               </div>
@@ -145,7 +145,9 @@ export const pageQuery = graphql`
         recipeYield
         recipeIngredients {
           section
-          ingredients
+          ingredients {
+            recipeIngredient
+          }
         }
       }
     }
